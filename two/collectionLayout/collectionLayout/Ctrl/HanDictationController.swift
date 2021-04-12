@@ -57,6 +57,22 @@ class HanDictationController: UIViewController {
         view.backgroundColor = UIColor.white
         forUI()
 
+        if let src = Bundle.main.url(forResource: "one", withExtension: "plist"){
+            do {
+                let data = try Data(contentsOf: src)
+                // handle data
+                let decoder = PropertyListDecoder()
+                let resp = try decoder.decode(HanCatalog.self, from: data)
+                self.catalog = resp
+                self.clickX = nil
+                self.refresh()
+            } catch  {
+                print(error)
+            }
+            
+        }
+        
+        
     }
     
     

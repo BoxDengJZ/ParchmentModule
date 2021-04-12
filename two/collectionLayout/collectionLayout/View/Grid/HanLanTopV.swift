@@ -147,7 +147,7 @@ class HanLanTopV: UICollectionReusableView {
     
     private
     func imgEmpty(){
-        head.image = UIImage(named: "dictation_empty")
+        head.image = UIImage(named: "dictation_empty_cel")
         
     }
     

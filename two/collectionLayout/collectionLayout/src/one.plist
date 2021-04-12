@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>book_image</key>
+	<string>http://pictures%2F%E5%85%AD%E4%B8%89%E5%88%B6%E8%AF%AD%E6%96%87%E5%B0%81%E9%9D%A2%2F%E4%B8%80%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.jpg</string>
+	<key>book_name</key>
+	<string>一年级上册</string>
+	<key>publisher_name</key>
+	<string>人民教育出版社</string>
+	<key>texts</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>课文</string>
+			<key>text</key>
+			<array>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>405</integer>
+					<key>preview</key>
+					<string>天 地 人 你 我 他</string>
+					<key>title</key>
+					<string>识字 1 天地人</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>407</integer>
+					<key>preview</key>
+					<string>一 二 三 四 五 上 下</string>
+					<key>title</key>
+					<string>识字 2 金木水火土</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>409</integer>
+					<key>preview</key>
+					<string>口 耳 目 手 足 站 坐</string>
+					<key>title</key>
+					<string>识字 3 口耳目</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>411</integer>
+					<key>preview</key>
+					<string>日 月 水 火 山 石 田 禾</string>
+					<key>title</key>
+					<string>识字 4 日月水火</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>413</integer>
+					<key>preview</key>
+					<string>对 云 雨 风 花 鸟 虫</string>
+					<key>title</key>
+					<string>识字 5 对韵歌</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>415</integer>
+					<key>preview</key>
+					<string>六 七 八 九 十</string>
+					<key>title</key>
+					<string>识字 语文园地</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>391</integer>
+					<key>preview</key>
+					<string>ā ō ē</string>
+					<key>title</key>
+					<string>汉语拼音 1 a o e</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>393</integer>
+					<key>preview</key>
+					<string>ī ū ǖ yū yī wū</string>
+					<key>title</key>
+					<string>汉语拼音 2 i u ü y w</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>395</integer>
+					<key>preview</key>
+					<string>b p m f 爸 妈</string>
+					<key>title</key>
+					<string>汉语拼音 3 b p m f</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>397</integer>
+					<key>preview</key>
+					<string>d t n l 马 土 不</string>
+					<key>title</key>
+					<string>汉语拼音 4 d t n l</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>399</integer>
+					<key>preview</key>
+					<string>g k h 画 打</string>
+					<key>title</key>
+					<string>汉语拼音 5 g k h</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>400</integer>
+					<key>preview</key>
+					<string>j q x 棋 鸡</string>
+					<key>title</key>
+					<string>汉语拼音 6 j q x</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>401</integer>
+					<key>preview</key>
+					<string>z c s 字 词 语 句 子</string>
+					<key>title</key>
+					<string>汉语拼音 7 z c s</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>402</integer>
+					<key>preview</key>
+					<string>zh ch sh r 桌 纸</string>
+					<key>title</key>
+					<string>汉语拼音 8 zh ch sh r</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>403</integer>
+					<key>preview</key>
+					<string>文 数 学 音 乐</string>
+					<key>title</key>
+					<string>汉语拼音 语文园地</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>390</integer>
+					<key>preview</key>
+					<string>ai ei ui 妹 奶 白 皮</string>
+					<key>title</key>
+					<string>汉语拼音 9 ai ei ui</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>392</integer>
+					<key>preview</key>
+					<string>ao ou iu 小 桥 台</string>
+					<key>title</key>
+					<string>汉语拼音 10 ao ou iu</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>394</integer>
+					<key>preview</key>
+					<string>ie üe  er 雪 儿</string>
+					<key>title</key>
+					<string>汉语拼音 11 ie üe er</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>396</integer>
+					<key>preview</key>
+					<string>an en in un ün 草 家 是</string>
+					<key>title</key>
+					<string>汉语拼音 12 an en in un ün</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>398</integer>
+					<key>preview</key>
+					<string>ang eng ing ong 车 羊 </string>
+					<key>title</key>
+					<string>汉语拼音 13 ang eng ing ong</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>1020</integer>
+					<key>preview</key>
+					<string>b p m f</string>
+					<key>title</key>
+					<string>第三单元 语文园地</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>419</integer>
+					<key>preview</key>
+					<string>秋 气 了 树 叶 片 大 飞 会 个</string>
+					<key>title</key>
+					<string>课文 1 秋天</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>423</integer>
+					<key>preview</key>
+					<string>的 船 两 头 在 里 看 见 闪 星</string>
+					<key>title</key>
+					<string>课文 2 小小的船</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>427</integer>
+					<key>preview</key>
+					<string>江 南 可 采 莲 鱼 东 西 北</string>
+					<key>title</key>
+					<string>课文 3 江南</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>431</integer>
+					<key>preview</key>
+					<string>尖 说 春 青 蛙 夏 弯 皮 地 就 </string>
+					<key>title</key>
+					<string>课文 4 四季</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>433</integer>
+					<key>preview</key>
+					<string>男 女 开 关 正 反</string>
+					<key>title</key>
+					<string>课文 语文园地</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>404</integer>
+					<key>preview</key>
+					<string>远 有 色 近 听 无 声 去 还 来</string>
+					<key>title</key>
+					<string>识字 6 画</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>406</integer>
+					<key>preview</key>
+					<string>多 少 黄 牛 只 猫 边 鸭 苹 果 </string>
+					<key>title</key>
+					<string>识字 7 大小多少</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>408</integer>
+					<key>preview</key>
+					<string>书 包 尺 作 业 本 笔 刀 课 早 </string>
+					<key>title</key>
+					<string>识字 8 小书包</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>410</integer>
+					<key>preview</key>
+					<string>明 力 尘 从 众 双 木 林 森 条 </string>
+					<key>title</key>
+					<string>识字 9 日月明</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>412</integer>
+					<key>preview</key>
+					<string>升 国 旗 中 红 歌 起 么 美 丽 </string>
+					<key>title</key>
+					<string>识字 升国旗</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>414</integer>
+					<key>preview</key>
+					<string>午 晚 昨 今 年</string>
+					<key>title</key>
+					<string>识字 语文园地</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>416</integer>
+					<key>preview</key>
+					<string>影 前 后 黑 狗 左 右 它 好 朋 </string>
+					<key>title</key>
+					<string>课文 5 影子</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>420</integer>
+					<key>preview</key>
+					<string>比 尾 巴 谁 长 短 把 伞 兔 最 </string>
+					<key>title</key>
+					<string>课文 6 比尾巴</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>424</integer>
+					<key>preview</key>
+					<string>写 诗 点 要 过 给 当 串 们 以 </string>
+					<key>title</key>
+					<string>课文 7 青蛙写诗</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>428</integer>
+					<key>preview</key>
+					<string>数 彩 半 空 问 到 方 没 更 绿 </string>
+					<key>title</key>
+					<string>课文 8 雨点儿</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>432</integer>
+					<key>preview</key>
+					<string>古朗月行（节选）</string>
+					<key>title</key>
+					<string>课文 语文园地</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>417</integer>
+					<key>preview</key>
+					<string>睡 那 海 真 老 师 吗 同 什 才 </string>
+					<key>title</key>
+					<string>课文 9 明天要远足</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>421</integer>
+					<key>preview</key>
+					<string>时 候 觉 得 自 己 很 穿 衣 服 </string>
+					<key>title</key>
+					<string>课文 10 大还是小</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>425</integer>
+					<key>preview</key>
+					<string>蓝 又 笑 着 向 和 贝 娃 挂 活 </string>
+					<key>title</key>
+					<string>课文 11 项链</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>429</integer>
+					<key>preview</key>
+					<string>哥 姐 弟 叔 爷</string>
+					<key>title</key>
+					<string>课文 语文园地</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>418</integer>
+					<key>preview</key>
+					<string>群 竹 牙 用 几 步 为 参 加 洞 </string>
+					<key>title</key>
+					<string>课文 12 雪地里的小画家</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>422</integer>
+					<key>preview</key>
+					<string>乌 鸦 处 找 办 旁 许 法 放 进 </string>
+					<key>title</key>
+					<string>课文 13 乌鸦喝水</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>426</integer>
+					<key>preview</key>
+					<string>住 孩 玩 吧 发 芽 爬 呀 久 回 </string>
+					<key>title</key>
+					<string>课文 14 小蜗牛</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>430</integer>
+					<key>preview</key>
+					<string>工 厂 医 院 生</string>
+					<key>title</key>
+					<string>课文 语文园地</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>识字表</string>
+			<key>text</key>
+			<array>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>1028</integer>
+					<key>preview</key>
+					<string>天 地 人 你 我 他 一 二 三 四 </string>
+					<key>title</key>
+					<string>第一单元 1~5</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>1029</integer>
+					<key>preview</key>
+					<string>爸 妈 马 土 不 画 打 棋 鸡 字 </string>
+					<key>title</key>
+					<string>第二单元 3~8</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>1030</integer>
+					<key>preview</key>
+					<string>妹 奶 小 桥 台 雪 儿 白 草 家 </string>
+					<key>title</key>
+					<string>第三单元 9~13</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>1031</integer>
+					<key>preview</key>
+					<string>秋 气 了 树 叶 片 大 会 个 的 </string>
+					<key>title</key>
+					<string>第四单元 1~4</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>1032</integer>
+					<key>preview</key>
+					<string>远 有 色 近 听 无 声 去 还 来 </string>
+					<key>title</key>
+					<string>第五单元 6~10</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>1033</integer>
+					<key>preview</key>
+					<string>影 前 后 黑 狗 左 右 它 好 朋 </string>
+					<key>title</key>
+					<string>第六单元 5~8</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>1034</integer>
+					<key>preview</key>
+					<string>睡 那 海 真 老 师 吗 同 什 才 </string>
+					<key>title</key>
+					<string>第七单元 9~11</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>1035</integer>
+					<key>preview</key>
+					<string>群 竹 牙 用 几 步 为 参 加 洞 </string>
+					<key>title</key>
+					<string>第八单元 12~14</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>写字表</string>
+			<key>text</key>
+			<array>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>1022</integer>
+					<key>preview</key>
+					<string>一 二 三 上 口 目 耳 手 日 田 </string>
+					<key>title</key>
+					<string>第一单元 2~5</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>1023</integer>
+					<key>preview</key>
+					<string>了 子 人 大 月 儿 头 里 可 东 </string>
+					<key>title</key>
+					<string>第四单元 1~4</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>1024</integer>
+					<key>preview</key>
+					<string>水 去 来 不 小 少 牛 果 鸟 早 </string>
+					<key>title</key>
+					<string>第五单元 6~10</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>1025</integer>
+					<key>preview</key>
+					<string>在 后 我 好 长 比 巴 把 下 个 </string>
+					<key>title</key>
+					<string>第六单元 5~8</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>1026</integer>
+					<key>preview</key>
+					<string>才 明 同 学 自 己 衣 白 的 又 </string>
+					<key>title</key>
+					<string>第七单元 9~11</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>1027</integer>
+					<key>preview</key>
+					<string>竹 牙 马 用 几 只 石 多 出 见 </string>
+					<key>title</key>
+					<string>第八单元 12~14</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>古诗词复习</string>
+			<key>text</key>
+			<array>
+				<dict>
+					<key>author</key>
+					<string>骆宾王</string>
+					<key>id</key>
+					<integer>1691</integer>
+					<key>preview</key>
+					<string>鹅鹅鹅，曲项向天歌。</string>
+					<key>title</key>
+					<string>咏鹅</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>1692</integer>
+					<key>preview</key>
+					<string>江南可采莲，莲叶何田田。</string>
+					<key>title</key>
+					<string>江南</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string>李绅</string>
+					<key>id</key>
+					<integer>1693</integer>
+					<key>preview</key>
+					<string>锄禾日当午，汗滴禾下土。</string>
+					<key>title</key>
+					<string>悯农（其二）</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string>李白</string>
+					<key>id</key>
+					<integer>1694</integer>
+					<key>preview</key>
+					<string>小时不识月，呼作白玉盘。</string>
+					<key>title</key>
+					<string>古朗月行（节选）</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string>李峤</string>
+					<key>id</key>
+					<integer>1695</integer>
+					<key>preview</key>
+					<string>风</string>
+					<key>title</key>
+					<string>风</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>现代诗歌复习</string>
+			<key>text</key>
+			<array>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>2027</integer>
+					<key>preview</key>
+					<string>一二三四五，金木水火土。</string>
+					<key>title</key>
+					<string>2 金木水火土</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>2028</integer>
+					<key>preview</key>
+					<string>站如松，坐如钟。</string>
+					<key>title</key>
+					<string>3 口耳目</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>2029</integer>
+					<key>preview</key>
+					<string>云对雨，雪对风。</string>
+					<key>title</key>
+					<string>5 对韵歌</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>2030</integer>
+					<key>preview</key>
+					<string>一片两片三四片，五片六片七八片。</string>
+					<key>title</key>
+					<string>语文园地</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string>郑春华</string>
+					<key>id</key>
+					<integer>2038</integer>
+					<key>preview</key>
+					<string>小兔小兔轻轻跳，小狗小狗慢慢跑。</string>
+					<key>title</key>
+					<string>4 d t n l</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string>樊发稼</string>
+					<key>id</key>
+					<integer>2039</integer>
+					<key>preview</key>
+					<string>小溪流说话，哗哗，哗哗。</string>
+					<key>title</key>
+					<string>5 g k h</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string>李秀英</string>
+					<key>id</key>
+					<integer>2040</integer>
+					<key>preview</key>
+					<string>小黄鸡，小黑鸡，</string>
+					<key>title</key>
+					<string>6 j q x</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string>邓元杰</string>
+					<key>id</key>
+					<integer>2041</integer>
+					<key>preview</key>
+					<string>数学题，三四道，</string>
+					<key>title</key>
+					<string>7 z c s</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>2042</integer>
+					<key>preview</key>
+					<string>四是四,</string>
+					<key>title</key>
+					<string>8 zh ch sh</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string>窦植</string>
+					<key>id</key>
+					<integer>2043</integer>
+					<key>preview</key>
+					<string>小剪刀，手中拿，</string>
+					<key>title</key>
+					<string>语文园地</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string>常福生</string>
+					<key>id</key>
+					<integer>2033</integer>
+					<key>preview</key>
+					<string>排着队，向前走，</string>
+					<key>title</key>
+					<string>9 ai ei ui</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>2034</integer>
+					<key>preview</key>
+					<string>一只船，扬白帆，</string>
+					<key>title</key>
+					<string>10 ao ou iu</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string>王清秀</string>
+					<key>id</key>
+					<integer>2035</integer>
+					<key>preview</key>
+					<string>月儿弯弯挂蓝天，</string>
+					<key>title</key>
+					<string>11 ie üe er</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>2036</integer>
+					<key>preview</key>
+					<string>蓝天是白云的家，</string>
+					<key>title</key>
+					<string>12 an en in un ün</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>2037</integer>
+					<key>preview</key>
+					<string>红灯停，绿灯行，</string>
+					<key>title</key>
+					<string>13 ang eng ing ong</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string>叶圣陶</string>
+					<key>id</key>
+					<integer>2053</integer>
+					<key>preview</key>
+					<string>弯弯的月儿小小的船。</string>
+					<key>title</key>
+					<string>2 小小的船</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string>薛卫民</string>
+					<key>id</key>
+					<integer>2054</integer>
+					<key>preview</key>
+					<string>草芽尖尖，他对小鸟说：“我是春天。”</string>
+					<key>title</key>
+					<string>4 四季</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>2055</integer>
+					<key>preview</key>
+					<string>一年之计在于春，一日之计在于晨。</string>
+					<key>title</key>
+					<string>语文园地</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>2044</integer>
+					<key>preview</key>
+					<string>一个大，一个小，一头黄牛一只猫。</string>
+					<key>title</key>
+					<string>7 大小多少</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>2045</integer>
+					<key>preview</key>
+					<string>我的小书包，</string>
+					<key>title</key>
+					<string>8 小书包</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>2046</integer>
+					<key>preview</key>
+					<string>日月明，田力男。</string>
+					<key>title</key>
+					<string>9 日月明</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>2047</integer>
+					<key>preview</key>
+					<string>中国 国旗 五星红旗</string>
+					<key>title</key>
+					<string>10 升国旗</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string>林焕彰</string>
+					<key>id</key>
+					<integer>2050</integer>
+					<key>preview</key>
+					<string>影子在前，</string>
+					<key>title</key>
+					<string>5 影子</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string>程宏明</string>
+					<key>id</key>
+					<integer>2051</integer>
+					<key>preview</key>
+					<string>谁的尾巴长？</string>
+					<key>title</key>
+					<string>6 比尾巴</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>2052</integer>
+					<key>preview</key>
+					<string>前后左右，东西南北。</string>
+					<key>title</key>
+					<string>语文园地</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string>方素珍</string>
+					<key>id</key>
+					<integer>2031</integer>
+					<key>preview</key>
+					<string>翻过来，</string>
+					<key>title</key>
+					<string>9 明天要远足</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>2032</integer>
+					<key>preview</key>
+					<string>种瓜得瓜，种豆得豆。</string>
+					<key>title</key>
+					<string>语文园地</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string>程宏明</string>
+					<key>id</key>
+					<integer>2048</integer>
+					<key>preview</key>
+					<string>下雪啦，下雪啦！</string>
+					<key>title</key>
+					<string>12 雪地里的小画家</string>
+				</dict>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>2049</integer>
+					<key>preview</key>
+					<string>小孩小孩你别馋，</string>
+					<key>title</key>
+					<string>语文园地</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>现代文复习</string>
+			<key>text</key>
+			<array>
+				<dict>
+					<key>author</key>
+					<string></string>
+					<key>id</key>
+					<integer>2088</integer>
+					<key>preview</key>
+					<string>天气凉了，树叶黄了。一片片叶子从树上落下</string>
+					<key>title</key>
+					<string>1 秋天</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>version_name</key>
+	<string>部编版语文六三制</string>
+</dict>
+</plist>

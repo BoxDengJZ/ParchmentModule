@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2643A83426248CF80006501A /* one.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2643A83326248CF80006501A /* one.plist */; };
 		26A3439326244400000138B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A3439226244400000138B5 /* AppDelegate.swift */; };
 		26A3439526244400000138B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A3439426244400000138B5 /* SceneDelegate.swift */; };
 		26A3439A26244400000138B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A3439826244400000138B5 /* Main.storyboard */; };
@@ -17,12 +18,10 @@
 		26A343BD26244581000138B5 /* SideHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343BC26244581000138B5 /* SideHeader.swift */; };
 		26A343C1262445AE000138B5 /* HanGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343C0262445AE000138B5 /* HanGridLayout.swift */; };
 		26A343C5262445F9000138B5 /* BookCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343C4262445F9000138B5 /* BookCatalog.swift */; };
-		26A343D82624462C000138B5 /* EnLanTopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343C82624462C000138B5 /* EnLanTopItem.swift */; };
 		26A343D92624462C000138B5 /* LanGrid.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A343C92624462C000138B5 /* LanGrid.xib */; };
 		26A343DA2624462C000138B5 /* EmptyContentCel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343CB2624462C000138B5 /* EmptyContentCel.swift */; };
 		26A343DB2624462C000138B5 /* EmptyContentCel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A343CC2624462C000138B5 /* EmptyContentCel.xib */; };
 		26A343E32624462C000138B5 /* HanLanTopV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343D42624462C000138B5 /* HanLanTopV.swift */; };
-		26A343E42624462C000138B5 /* EnLanTopItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A343D52624462C000138B5 /* EnLanTopItem.xib */; };
 		26A343E52624462C000138B5 /* LanGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343D62624462C000138B5 /* LanGrid.swift */; };
 		26A343E62624462C000138B5 /* HanLanTopV.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A343D72624462C000138B5 /* HanLanTopV.xib */; };
 		26A343EA26244B09000138B5 /* UITableViewAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343E926244B09000138B5 /* UITableViewAdd.swift */; };
@@ -64,6 +63,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2643A83326248CF80006501A /* one.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = one.plist; sourceTree = "<group>"; };
 		26A3438F26244400000138B5 /* collectionLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = collectionLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A3439226244400000138B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26A3439426244400000138B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,12 +78,10 @@
 		26A343BC26244581000138B5 /* SideHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideHeader.swift; sourceTree = "<group>"; };
 		26A343C0262445AE000138B5 /* HanGridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HanGridLayout.swift; sourceTree = "<group>"; };
 		26A343C4262445F9000138B5 /* BookCatalog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCatalog.swift; sourceTree = "<group>"; };
-		26A343C82624462C000138B5 /* EnLanTopItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnLanTopItem.swift; sourceTree = "<group>"; };
 		26A343C92624462C000138B5 /* LanGrid.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LanGrid.xib; sourceTree = "<group>"; };
 		26A343CB2624462C000138B5 /* EmptyContentCel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyContentCel.swift; sourceTree = "<group>"; };
 		26A343CC2624462C000138B5 /* EmptyContentCel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyContentCel.xib; sourceTree = "<group>"; };
 		26A343D42624462C000138B5 /* HanLanTopV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HanLanTopV.swift; sourceTree = "<group>"; };
-		26A343D52624462C000138B5 /* EnLanTopItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnLanTopItem.xib; sourceTree = "<group>"; };
 		26A343D62624462C000138B5 /* LanGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanGrid.swift; sourceTree = "<group>"; };
 		26A343D72624462C000138B5 /* HanLanTopV.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HanLanTopV.xib; sourceTree = "<group>"; };
 		26A343E926244B09000138B5 /* UITableViewAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewAdd.swift; sourceTree = "<group>"; };
@@ -115,6 +113,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2643A83226248CF80006501A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				2643A83326248CF80006501A /* one.plist */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		26A3438626244400000138B5 = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +140,7 @@
 		26A3439126244400000138B5 /* collectionLayout */ = {
 			isa = PBXGroup;
 			children = (
+				2643A83226248CF80006501A /* src */,
 				26A343E826244B09000138B5 /* Util */,
 				26A343C3262445F9000138B5 /* Model */,
 				26A343BB26244581000138B5 /* View */,
@@ -200,11 +207,9 @@
 		26A343C72624462C000138B5 /* Grid */ = {
 			isa = PBXGroup;
 			children = (
-				26A343C82624462C000138B5 /* EnLanTopItem.swift */,
 				26A343C92624462C000138B5 /* LanGrid.xib */,
 				26A343CA2624462C000138B5 /* Free */,
 				26A343D42624462C000138B5 /* HanLanTopV.swift */,
-				26A343D52624462C000138B5 /* EnLanTopItem.xib */,
 				26A343D62624462C000138B5 /* LanGrid.swift */,
 				26A343D72624462C000138B5 /* HanLanTopV.xib */,
 			);
@@ -294,9 +299,9 @@
 			files = (
 				26A3439F26244402000138B5 /* LaunchScreen.storyboard in Resources */,
 				26A343D92624462C000138B5 /* LanGrid.xib in Resources */,
-				26A343E42624462C000138B5 /* EnLanTopItem.xib in Resources */,
 				26A343DB2624462C000138B5 /* EmptyContentCel.xib in Resources */,
 				26A343E62624462C000138B5 /* HanLanTopV.xib in Resources */,
+				2643A83426248CF80006501A /* one.plist in Resources */,
 				26A3439C26244402000138B5 /* Assets.xcassets in Resources */,
 				26A3439A26244400000138B5 /* Main.storyboard in Resources */,
 			);
@@ -315,7 +320,6 @@
 				26A343F926244CA7000138B5 /* neg.swift in Sources */,
 				26A343C1262445AE000138B5 /* HanGridLayout.swift in Sources */,
 				26A343F326244BED000138B5 /* FontAdd.swift in Sources */,
-				26A343D82624462C000138B5 /* EnLanTopItem.swift in Sources */,
 				26A343E32624462C000138B5 /* HanLanTopV.swift in Sources */,
 				26A343EA26244B09000138B5 /* UITableViewAdd.swift in Sources */,
 				26A3439326244400000138B5 /* AppDelegate.swift in Sources */,
