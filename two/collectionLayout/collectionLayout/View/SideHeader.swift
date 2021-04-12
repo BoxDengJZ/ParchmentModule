@@ -8,6 +8,7 @@
 
 import UIKit
 
+import NSObject_Rx
 
 protocol SideHeaderProxy: class {
     
@@ -44,33 +45,6 @@ extension SideHeaderDelegate{
 
 
 
-
-protocol SideHeadWithRhsDelegate: SideHeaderDelegate {
-    
-    var rhs: HotImg{ get set }
-    
-}
-
-
-extension SideHeadWithRhsDelegate {
-    
-    func createRhs(_ name: String) -> HotImg{
-        let img = HotImg(image: UIImage(named: name))
-        img.isUserInteractionEnabled = true
-        return img
-    }
-    
-    func layoutRhs(){
-        h.addSubview(rhs)
-        rhs.snp.makeConstraints { (maker) in
-            maker.size.equalTo(CGSize(width: 18, height: 18))
-            maker.centerY.equalToSuperview()
-            maker.trailing.equalToSuperview().offset(-16)
-        }
-    }
-    
-    
-}
 
 
 struct HeaderS {

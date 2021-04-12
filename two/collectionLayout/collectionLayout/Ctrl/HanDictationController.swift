@@ -56,20 +56,7 @@ class HanDictationController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
         forUI()
-        doEvents()
-        if let k = Front_w_Persist.hanInfo{
-            text(list: k.key)
-        }
-        loadDat(src: .ch, school: .primary){ (datum) in
-            self.mark = datum
-            self.bookChoose.update(ui: datum)
-            if Front_w_Persist.hanInfo == nil, let piece = datum.first{
-                    let cakes = piece.books
-                    if let oreo = cakes.first{
-                        self.text(list: oreo.k)
-                    }
-            }
-        }
+
     }
     
     
@@ -92,40 +79,6 @@ class HanDictationController: UIViewController {
 
 
     }
-    
-    
-    
-    func doEvents(){
-        bag = bookChoose.doneB.rx.tap.subscribe(onNext: { () in
-            self.update(dataFu: self.bookChoose.chooseTb)
-            self.goBottomBooks()
-        })
-        
-        NotificationCenter.default.rx
-            .notification(.refreshLanLabel)
-            .takeUntil(self.rx.deallocated).subscribe(onNext: { (noti) in
-                if let xxx = noti.object as? Int, let dat = self.catalog?.texts[self.topClickIdx].text, let index = dat.firstIndex(where: { (book) -> Bool in
-                        book.k == xxx
-                    }){
-                        self.clickX = index
-                        self.contentV.reloadData()
-                    }
-        }).disposed(by: rx.disposeBag)
-    }
-    
-    
-    func update(dataFu info: SelectedTb){
-        guard let data = mark else {
-            return
-        }
-        let book = data[info.lhs]
-        let paper = book.books[info.rhs]
-        topClickIdx = 0
-        let content = "\(paper.name)\n\(book.publisher)"
-        Front_w_Persist.saveInfo(kind: true, k: paper.k, detail: content, middle: false)
-        text(list: paper.k)
-    }
-    
 
     
 }

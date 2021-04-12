@@ -8,6 +8,22 @@
 
 import UIKit
 
+
+
+enum CommonComponent: String {
+  case cell
+  case header
+  
+  var kind: String {
+      switch self{
+      case .header:
+          return UICollectionReusableView.header
+      default:
+          return ""
+      }
+  }
+}
+
 // 首页
 
 class HanGridLayout: UICollectionViewLayout {
@@ -149,3 +165,54 @@ extension HanGridLayout {
 
 
 
+
+
+
+
+
+
+
+struct CommonLayout{
+     let headH: CGFloat
+    
+     var itemSize: CGSize{
+         let w = (UI.std.width - contentEdge.left - contentEdge.right - interitemSpacing) * 0.5
+         let h: CGFloat = 160
+          
+         return CGSize(width: w, height: h)
+     }
+    
+      var headSize: CGSize {
+         CGSize(width: UI.std.width, height: headH)
+      }
+
+      
+      
+      let contentEdge = UIEdgeInsets(top: 8, left: 12, bottom: 15, right: 12)
+      
+      
+      
+      let interitemSpacing: CGFloat = 6
+      
+      
+      let lineSpacing: CGFloat = 6
+    
+    init(head h: CGFloat) {
+        headH = h
+    }
+}
+
+
+extension CommonLayout{
+    func exceed(origin x: inout CGFloat, limit widthX: CGFloat) -> CGFloat{
+        var exceedH: CGFloat = 0
+        if x + itemSize.width * 2 + interitemSpacing + contentEdge.right < widthX + 1{
+            x = itemSize.width + contentEdge.left + interitemSpacing
+       }
+       else{
+           x = contentEdge.left
+           exceedH = (itemSize.height + lineSpacing)
+       }
+       return exceedH
+    }
+}
