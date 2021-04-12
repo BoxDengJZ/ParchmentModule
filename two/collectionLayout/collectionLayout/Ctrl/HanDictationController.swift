@@ -42,7 +42,6 @@ class HanDictationController: UIViewController {
     }()
 
     var topClickIdx = 0
-    var clickX: Int?
     
     var bag: Disposable?
     
@@ -64,8 +63,7 @@ class HanDictationController: UIViewController {
                 let decoder = PropertyListDecoder()
                 let resp = try decoder.decode(HanCatalog.self, from: data)
                 self.catalog = resp
-                self.clickX = nil
-                self.refresh()
+                self.contentV.reloadData()
             } catch  {
                 print(error)
             }
@@ -113,18 +111,4 @@ extension UICollectionView{
         showsHorizontalScrollIndicator = false
     }
     
-    
-    var bgOK: Bool{
-        get{
-            return false
-        }
-        set{
-            if newValue{
-                backgroundColor = UIColor(rgb: 0xF4F6FA)
-            }
-            else{
-                backgroundColor = UIColor.white
-            }
-        }
-    }
 }

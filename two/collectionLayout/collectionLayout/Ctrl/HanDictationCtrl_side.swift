@@ -25,19 +25,9 @@ extension HanDictationController: LanItemTopProxy{
     
     func choose(idx index: Int){
         topClickIdx = index
-        clickX = nil
-        refresh()
-    }
-    
-    
-    
-    func refresh(){
-        let ok = hasDataX
-        layoutHan.oKey = ok
-        contentV.bgOK = ok
         contentV.reloadData()
     }
-
+    
 }
 
 

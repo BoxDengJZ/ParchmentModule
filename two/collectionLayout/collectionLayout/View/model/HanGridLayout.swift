@@ -51,7 +51,6 @@ class HanGridLayout: UICollectionViewLayout {
      collectionView!.frame.width
   }
 
-    var oKey = false
   
     let layout = CommonLayout(head: 160)
 }
@@ -77,7 +76,6 @@ extension HanGridLayout {
         
       cache[.header]?[headerIP] = headerAttributes
       contentHeight += (headerH + layout.contentEdge.top)
-      if oKey{
             let count = collectionView.numberOfItems(inSection: 0)
             for item in 0 ..< count {
                   let cellIndexPath = IndexPath(item: item, section: 0)
@@ -91,16 +89,7 @@ extension HanGridLayout {
             if count % 2 == 1{
                 contentHeight += layout.itemSize.height
             }
-      }
-      else{
-            let cellIndexPath = IndexPath(item: 0, section: 0)
-            let attributes = UICollectionViewLayoutAttributes(forCellWith: cellIndexPath)
-          
-            attributes.frame = CGRect( x: cellX, y: contentHeight, width: UI.std.width, height: LanTopV_H.h )
-            
-            contentHeight += layout.itemSize.height
-            cache[.cell]?[cellIndexPath] = attributes
-      }
+ 
       contentHeight += layout.contentEdge.bottom
   }
 

@@ -46,14 +46,9 @@ extension HanDictationController: UICollectionViewDataSource{
             let dat = source.texts[topClickIdx].text
             let cel = collectionView.dequeue(cell: LanGrid.self, ip: indexPath)
             let datagram = dat[index]
-            var tapX = false
             var toHideBottomWoX = true
             var fucArray = [Int]()
             let cnt = dat.count
-            
-            if let clickRow = clickX, clickRow == index{
-                tapX = true
-            }
             if cnt - 1 >= 0{
                 fucArray += [cnt - 1]
             }
@@ -63,7 +58,7 @@ extension HanDictationController: UICollectionViewDataSource{
             if fucArray.contains(index){
                 toHideBottomWoX = false
             }
-            cel.config(package: datagram.title, below: datagram.preview, click: tapX, toHideBottom: toHideBottomWoX)
+            cel.config(package: datagram.title, below: datagram.preview, click: false, toHideBottom: toHideBottomWoX)
             return cel
         }
         else{
