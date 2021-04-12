@@ -21,7 +21,7 @@ class HanDictationController: UIViewController {
     var catalog: HanCatalog?
 
     lazy var h: SideHeader = {
-        let cao = SideHeader(title: "语文课本")
+        let cao = SideHeader(title: "Demo")
         cao.delegate = self
         return cao
     }()

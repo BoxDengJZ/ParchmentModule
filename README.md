@@ -7,3 +7,7 @@
 
 
 ### [CSDN: 模拟器，网络 json 转 plist 文件，便捷代码](https://blog.csdn.net/dengjiangszhan/article/details/115644065)
+
+
+
+### [iOS 的 paged controller 的一种思路](https://blog.csdn.net/dengjiangszhan/article/details/115645961)
