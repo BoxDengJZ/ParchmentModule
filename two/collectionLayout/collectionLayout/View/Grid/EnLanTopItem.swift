@@ -17,8 +17,6 @@ class EnLanTopItem: UICollectionReusableView {
     
     @IBOutlet weak var head: UIImageView!
     
-    weak var delegate: LanTopProxy?
-    
     var list = [String]()
     
     override func awakeFromNib(){
@@ -54,28 +52,8 @@ class EnLanTopItem: UICollectionReusableView {
             express.font = UIFont.regular(ofSize: 15)
         }
      
-        pic(config: src)
+        imgEmpty()
     }
-    
-
-    private
-    func pic(config src: String){
-        if src == ""{
-            imgEmpty()
-        }
-        else{
-            head.kf.imgP(with: src, wait: "dictation_empty")
-        }
-    }
-    
-    
-    @IBAction
-    func chooseBook(_ sender: UIButton){
-        
-        delegate?.comeBottomBooks()
-        
-    }
-    
     
     
     private

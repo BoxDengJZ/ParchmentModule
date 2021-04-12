@@ -75,27 +75,6 @@ struct BookListBrief: Decodable{
 }
 
 
-struct RecorderPersist {
-    let dat: EnterP_src
-    let name: String
-}
-
-
-
-enum EnterP_src{
-    case std(PlayPageHa)
-    case custom(Int, LanOpt)
-    case fun(Int, String?)
-}
-
-
-
-struct PlayPageHa {
-    let kind: LanOpt
-    let k: Int
-}
-
-
 
 
 struct ActivityGo: Decodable{

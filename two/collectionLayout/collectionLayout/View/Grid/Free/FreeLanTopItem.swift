@@ -65,12 +65,7 @@ class FreeLanTopItem: UICollectionReusableView {
 
     private
     func pic(config src: String){
-        if src == ""{
-            imgEmpty()
-        }
-        else{
-            head.kf.imgP(with: src, wait: "dictation_empty")
-        }
+        imgEmpty()
     }
     
     

@@ -8,40 +8,11 @@
 
 import Foundation
 
+import UIKit
+
 extension HanDictationController: UICollectionViewDelegate{
     
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
-        guard hasDataX, let source = catalog else{
-            return
-        }
-        
-        let index = indexPath.item
-        /*
-        let piece = source.texts[topClickIdx].text[index]
-        let package = PlayPageHa(kind: LanOpt.ch, k: piece.k)
-        goto(player: package)
-        
-        
-        return
-        */
-        if UserSetting.shared.logined{
-            if UserDefaults.std.isVIP{
-                let piece = source.texts[topClickIdx].text[index]
-                let package = PlayPageHa(kind: LanOpt.ch, k: piece.k)
-                goto(player: package)
-            }
-            else{
-                NotificationCenter.default.post(name: .showEnVipGo, object: nil)
-            }
-        }
-        else{
-            toLogin()
-        }
-    }
-    
-    
-    
+  
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         switch kind {
         case CommonComponent.header.kind:

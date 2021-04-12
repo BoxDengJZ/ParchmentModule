@@ -8,10 +8,7 @@
 
 import UIKit
 import RxSwift
-
-protocol LanTopProxy: class {
-    func comeBottomBooks()
-}
+import RxCocoa
 
 
 protocol LanItemTopProxy: class {
@@ -103,9 +100,9 @@ class HanLanTopV: UICollectionReusableView {
         else{
             express.font = UIFont.regular(ofSize: 15)
         }
-        if let img = src{
-            pic(config: img)
-        }
+        
+        imgEmpty()
+        
         // print(info.names)
         let temps = info.names.map { (str) -> UILabel in
             let l = UILabel()
@@ -148,18 +145,6 @@ class HanLanTopV: UICollectionReusableView {
     
     
 
-    
-    private
-    func pic(config src: String){
-        if src == ""{
-            imgEmpty()
-        }
-        else{
-            head.kf.imgP(with: src, wait: "dictation_empty")
-        }
-    }
-    
-    
     @IBAction
     func chooseBook(_ sender: UIButton){
         

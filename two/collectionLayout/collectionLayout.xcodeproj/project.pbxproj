@@ -12,7 +12,6 @@
 		26A3439A26244400000138B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A3439826244400000138B5 /* Main.storyboard */; };
 		26A3439C26244402000138B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A3439B26244402000138B5 /* Assets.xcassets */; };
 		26A3439F26244402000138B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A3439D26244402000138B5 /* LaunchScreen.storyboard */; };
-		26A343AE262444A8000138B5 /* HanDictationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343AA262444A8000138B5 /* HanDictationController.swift */; };
 		26A343AF262444A8000138B5 /* HanDictationCtrl_cel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343AB262444A8000138B5 /* HanDictationCtrl_cel.swift */; };
 		26A343B0262444A8000138B5 /* HanDictationCtrlRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343AC262444A8000138B5 /* HanDictationCtrlRequest.swift */; };
 		26A343B1262444A8000138B5 /* HanDictationCtrl_side.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343AD262444A8000138B5 /* HanDictationCtrl_side.swift */; };
@@ -27,8 +26,6 @@
 		26A343DB2624462C000138B5 /* EmptyContentCel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A343CC2624462C000138B5 /* EmptyContentCel.xib */; };
 		26A343DC2624462C000138B5 /* EmptyContentCel_doingInput.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A343CD2624462C000138B5 /* EmptyContentCel_doingInput.xib */; };
 		26A343DD2624462C000138B5 /* FreeLanTopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343CE2624462C000138B5 /* FreeLanTopItem.swift */; };
-		26A343DE2624462C000138B5 /* JustFreeLanTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343CF2624462C000138B5 /* JustFreeLanTop.swift */; };
-		26A343DF2624462C000138B5 /* JustFreeLanTop.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A343D02624462C000138B5 /* JustFreeLanTop.xib */; };
 		26A343E02624462C000138B5 /* FreeLanTopItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A343D12624462C000138B5 /* FreeLanTopItem.xib */; };
 		26A343E12624462C000138B5 /* EmptyContentCel_doingInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343D22624462C000138B5 /* EmptyContentCel_doingInput.swift */; };
 		26A343E22624462C000138B5 /* LanTopV_xxxx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343D32624462C000138B5 /* LanTopV_xxxx.swift */; };
@@ -36,6 +33,15 @@
 		26A343E42624462C000138B5 /* EnLanTopItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A343D52624462C000138B5 /* EnLanTopItem.xib */; };
 		26A343E52624462C000138B5 /* LanGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343D62624462C000138B5 /* LanGrid.swift */; };
 		26A343E62624462C000138B5 /* HanLanTopV.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A343D72624462C000138B5 /* HanLanTopV.xib */; };
+		26A343EA26244B09000138B5 /* UITableViewAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343E926244B09000138B5 /* UITableViewAdd.swift */; };
+		26A343ED26244B7B000138B5 /* ColorAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343EC26244B7B000138B5 /* ColorAdd.swift */; };
+		26A343F026244BA4000138B5 /* CellAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343EF26244BA4000138B5 /* CellAdd.swift */; };
+		26A343F326244BED000138B5 /* FontAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343F226244BED000138B5 /* FontAdd.swift */; };
+		26A343F626244C31000138B5 /* RectAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343F526244C31000138B5 /* RectAdd.swift */; };
+		26A343F926244CA7000138B5 /* neg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343F826244CA7000138B5 /* neg.swift */; };
+		26A343FC26244CF1000138B5 /* ViewAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343FB26244CF1000138B5 /* ViewAdd.swift */; };
+		26A3440126244D3A000138B5 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A3440026244D3A000138B5 /* RxCocoa.framework */; };
+		26A3440526244DF0000138B5 /* HanDictationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A3440426244DF0000138B5 /* HanDictationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,7 +52,6 @@
 		26A3439B26244402000138B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26A3439E26244402000138B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26A343A026244402000138B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26A343AA262444A8000138B5 /* HanDictationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HanDictationController.swift; sourceTree = "<group>"; };
 		26A343AB262444A8000138B5 /* HanDictationCtrl_cel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HanDictationCtrl_cel.swift; sourceTree = "<group>"; };
 		26A343AC262444A8000138B5 /* HanDictationCtrlRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HanDictationCtrlRequest.swift; sourceTree = "<group>"; };
 		26A343AD262444A8000138B5 /* HanDictationCtrl_side.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HanDictationCtrl_side.swift; sourceTree = "<group>"; };
@@ -61,8 +66,6 @@
 		26A343CC2624462C000138B5 /* EmptyContentCel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyContentCel.xib; sourceTree = "<group>"; };
 		26A343CD2624462C000138B5 /* EmptyContentCel_doingInput.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyContentCel_doingInput.xib; sourceTree = "<group>"; };
 		26A343CE2624462C000138B5 /* FreeLanTopItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeLanTopItem.swift; sourceTree = "<group>"; };
-		26A343CF2624462C000138B5 /* JustFreeLanTop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JustFreeLanTop.swift; sourceTree = "<group>"; };
-		26A343D02624462C000138B5 /* JustFreeLanTop.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JustFreeLanTop.xib; sourceTree = "<group>"; };
 		26A343D12624462C000138B5 /* FreeLanTopItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FreeLanTopItem.xib; sourceTree = "<group>"; };
 		26A343D22624462C000138B5 /* EmptyContentCel_doingInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyContentCel_doingInput.swift; sourceTree = "<group>"; };
 		26A343D32624462C000138B5 /* LanTopV_xxxx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanTopV_xxxx.swift; sourceTree = "<group>"; };
@@ -70,6 +73,15 @@
 		26A343D52624462C000138B5 /* EnLanTopItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnLanTopItem.xib; sourceTree = "<group>"; };
 		26A343D62624462C000138B5 /* LanGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanGrid.swift; sourceTree = "<group>"; };
 		26A343D72624462C000138B5 /* HanLanTopV.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HanLanTopV.xib; sourceTree = "<group>"; };
+		26A343E926244B09000138B5 /* UITableViewAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewAdd.swift; sourceTree = "<group>"; };
+		26A343EC26244B7B000138B5 /* ColorAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorAdd.swift; sourceTree = "<group>"; };
+		26A343EF26244BA4000138B5 /* CellAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellAdd.swift; sourceTree = "<group>"; };
+		26A343F226244BED000138B5 /* FontAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAdd.swift; sourceTree = "<group>"; };
+		26A343F526244C31000138B5 /* RectAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectAdd.swift; sourceTree = "<group>"; };
+		26A343F826244CA7000138B5 /* neg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = neg.swift; sourceTree = "<group>"; };
+		26A343FB26244CF1000138B5 /* ViewAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAdd.swift; sourceTree = "<group>"; };
+		26A3440026244D3A000138B5 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
+		26A3440426244DF0000138B5 /* HanDictationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HanDictationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26A3440126244D3A000138B5 /* RxCocoa.framework in Frameworks */,
 				26A343B6262444EE000138B5 /* RxSwift.framework in Frameworks */,
 				26A343B92624450D000138B5 /* SnapKit.framework in Frameworks */,
 			);
@@ -104,6 +117,7 @@
 		26A3439126244400000138B5 /* collectionLayout */ = {
 			isa = PBXGroup;
 			children = (
+				26A343E826244B09000138B5 /* Util */,
 				26A343C3262445F9000138B5 /* Model */,
 				26A343BB26244581000138B5 /* View */,
 				26A343B4262444ED000138B5 /* module */,
@@ -121,7 +135,7 @@
 		26A343A9262444A8000138B5 /* Ctrl */ = {
 			isa = PBXGroup;
 			children = (
-				26A343AA262444A8000138B5 /* HanDictationController.swift */,
+				26A3440426244DF0000138B5 /* HanDictationController.swift */,
 				26A343AB262444A8000138B5 /* HanDictationCtrl_cel.swift */,
 				26A343AC262444A8000138B5 /* HanDictationCtrlRequest.swift */,
 				26A343AD262444A8000138B5 /* HanDictationCtrl_side.swift */,
@@ -132,6 +146,7 @@
 		26A343B4262444ED000138B5 /* module */ = {
 			isa = PBXGroup;
 			children = (
+				26A3440026244D3A000138B5 /* RxCocoa.framework */,
 				26A343B82624450D000138B5 /* SnapKit.framework */,
 				26A343B5262444ED000138B5 /* RxSwift.framework */,
 			);
@@ -186,12 +201,24 @@
 				26A343CC2624462C000138B5 /* EmptyContentCel.xib */,
 				26A343CD2624462C000138B5 /* EmptyContentCel_doingInput.xib */,
 				26A343CE2624462C000138B5 /* FreeLanTopItem.swift */,
-				26A343CF2624462C000138B5 /* JustFreeLanTop.swift */,
-				26A343D02624462C000138B5 /* JustFreeLanTop.xib */,
 				26A343D12624462C000138B5 /* FreeLanTopItem.xib */,
 				26A343D22624462C000138B5 /* EmptyContentCel_doingInput.swift */,
 			);
 			path = Free;
+			sourceTree = "<group>";
+		};
+		26A343E826244B09000138B5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				26A343FB26244CF1000138B5 /* ViewAdd.swift */,
+				26A343F826244CA7000138B5 /* neg.swift */,
+				26A343F526244C31000138B5 /* RectAdd.swift */,
+				26A343F226244BED000138B5 /* FontAdd.swift */,
+				26A343EF26244BA4000138B5 /* CellAdd.swift */,
+				26A343EC26244B7B000138B5 /* ColorAdd.swift */,
+				26A343E926244B09000138B5 /* UITableViewAdd.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +285,6 @@
 				26A343E42624462C000138B5 /* EnLanTopItem.xib in Resources */,
 				26A343DB2624462C000138B5 /* EmptyContentCel.xib in Resources */,
 				26A343E62624462C000138B5 /* HanLanTopV.xib in Resources */,
-				26A343DF2624462C000138B5 /* JustFreeLanTop.xib in Resources */,
 				26A3439C26244402000138B5 /* Assets.xcassets in Resources */,
 				26A3439A26244400000138B5 /* Main.storyboard in Resources */,
 			);
@@ -274,20 +300,26 @@
 				26A343B0262444A8000138B5 /* HanDictationCtrlRequest.swift in Sources */,
 				26A343C5262445F9000138B5 /* BookCatalog.swift in Sources */,
 				26A343E12624462C000138B5 /* EmptyContentCel_doingInput.swift in Sources */,
+				26A343F626244C31000138B5 /* RectAdd.swift in Sources */,
+				26A343FC26244CF1000138B5 /* ViewAdd.swift in Sources */,
+				26A343F926244CA7000138B5 /* neg.swift in Sources */,
 				26A343C1262445AE000138B5 /* HanGridLayout.swift in Sources */,
+				26A343F326244BED000138B5 /* FontAdd.swift in Sources */,
 				26A343D82624462C000138B5 /* EnLanTopItem.swift in Sources */,
-				26A343AE262444A8000138B5 /* HanDictationController.swift in Sources */,
 				26A343E32624462C000138B5 /* HanLanTopV.swift in Sources */,
+				26A343EA26244B09000138B5 /* UITableViewAdd.swift in Sources */,
 				26A3439326244400000138B5 /* AppDelegate.swift in Sources */,
+				26A3440526244DF0000138B5 /* HanDictationController.swift in Sources */,
 				26A343DA2624462C000138B5 /* EmptyContentCel.swift in Sources */,
 				26A3439526244400000138B5 /* SceneDelegate.swift in Sources */,
 				26A343AF262444A8000138B5 /* HanDictationCtrl_cel.swift in Sources */,
 				26A343E52624462C000138B5 /* LanGrid.swift in Sources */,
 				26A343BD26244581000138B5 /* SideHeader.swift in Sources */,
+				26A343ED26244B7B000138B5 /* ColorAdd.swift in Sources */,
 				26A343DD2624462C000138B5 /* FreeLanTopItem.swift in Sources */,
 				26A343E22624462C000138B5 /* LanTopV_xxxx.swift in Sources */,
+				26A343F026244BA4000138B5 /* CellAdd.swift in Sources */,
 				26A343B1262444A8000138B5 /* HanDictationCtrl_side.swift in Sources */,
-				26A343DE2624462C000138B5 /* JustFreeLanTop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
