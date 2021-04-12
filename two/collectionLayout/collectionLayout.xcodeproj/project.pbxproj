@@ -14,8 +14,6 @@
 		26A3439F26244402000138B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A3439D26244402000138B5 /* LaunchScreen.storyboard */; };
 		26A343AF262444A8000138B5 /* HanDictationCtrl_cel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343AB262444A8000138B5 /* HanDictationCtrl_cel.swift */; };
 		26A343B1262444A8000138B5 /* HanDictationCtrl_side.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343AD262444A8000138B5 /* HanDictationCtrl_side.swift */; };
-		26A343B6262444EE000138B5 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A343B5262444ED000138B5 /* RxSwift.framework */; };
-		26A343B92624450D000138B5 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A343B82624450D000138B5 /* SnapKit.framework */; };
 		26A343BD26244581000138B5 /* SideHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343BC26244581000138B5 /* SideHeader.swift */; };
 		26A343C1262445AE000138B5 /* HanGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343C0262445AE000138B5 /* HanGridLayout.swift */; };
 		26A343C5262445F9000138B5 /* BookCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343C4262445F9000138B5 /* BookCatalog.swift */; };
@@ -34,10 +32,36 @@
 		26A343F626244C31000138B5 /* RectAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343F526244C31000138B5 /* RectAdd.swift */; };
 		26A343F926244CA7000138B5 /* neg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343F826244CA7000138B5 /* neg.swift */; };
 		26A343FC26244CF1000138B5 /* ViewAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A343FB26244CF1000138B5 /* ViewAdd.swift */; };
-		26A3440126244D3A000138B5 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A3440026244D3A000138B5 /* RxCocoa.framework */; };
 		26A3440526244DF0000138B5 /* HanDictationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A3440426244DF0000138B5 /* HanDictationController.swift */; };
-		26A3440B26245000000138B5 /* NSObject_Rx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A3440A26245000000138B5 /* NSObject_Rx.framework */; };
+		26ECB3FA262485BC003B74A3 /* NSObject_Rx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A3440A26245000000138B5 /* NSObject_Rx.framework */; };
+		26ECB3FB262485BC003B74A3 /* NSObject_Rx.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26A3440A26245000000138B5 /* NSObject_Rx.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		26ECB3FD262485BD003B74A3 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A3440026244D3A000138B5 /* RxCocoa.framework */; };
+		26ECB3FE262485BD003B74A3 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26A3440026244D3A000138B5 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		26ECB3FF262485BE003B74A3 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A343B5262444ED000138B5 /* RxSwift.framework */; };
+		26ECB400262485BE003B74A3 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26A343B5262444ED000138B5 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		26ECB401262485C1003B74A3 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A343B82624450D000138B5 /* SnapKit.framework */; };
+		26ECB402262485C1003B74A3 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26A343B82624450D000138B5 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		26ECB40526248629003B74A3 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26ECB4032624861E003B74A3 /* RxRelay.framework */; };
+		26ECB40626248629003B74A3 /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26ECB4032624861E003B74A3 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		26ECB3FC262485BC003B74A3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				26ECB3FE262485BD003B74A3 /* RxCocoa.framework in Embed Frameworks */,
+				26ECB3FB262485BC003B74A3 /* NSObject_Rx.framework in Embed Frameworks */,
+				26ECB400262485BE003B74A3 /* RxSwift.framework in Embed Frameworks */,
+				26ECB402262485C1003B74A3 /* SnapKit.framework in Embed Frameworks */,
+				26ECB40626248629003B74A3 /* RxRelay.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		26A3438F26244400000138B5 /* collectionLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = collectionLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +96,7 @@
 		26A3440026244D3A000138B5 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
 		26A3440426244DF0000138B5 /* HanDictationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HanDictationController.swift; sourceTree = "<group>"; };
 		26A3440A26245000000138B5 /* NSObject_Rx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NSObject_Rx.framework; sourceTree = "<group>"; };
+		26ECB4032624861E003B74A3 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxRelay.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +104,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26A3440126244D3A000138B5 /* RxCocoa.framework in Frameworks */,
-				26A343B6262444EE000138B5 /* RxSwift.framework in Frameworks */,
-				26A3440B26245000000138B5 /* NSObject_Rx.framework in Frameworks */,
-				26A343B92624450D000138B5 /* SnapKit.framework in Frameworks */,
+				26ECB3FF262485BE003B74A3 /* RxSwift.framework in Frameworks */,
+				26ECB3FD262485BD003B74A3 /* RxCocoa.framework in Frameworks */,
+				26ECB3FA262485BC003B74A3 /* NSObject_Rx.framework in Frameworks */,
+				26ECB401262485C1003B74A3 /* SnapKit.framework in Frameworks */,
+				26ECB40526248629003B74A3 /* RxRelay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +162,7 @@
 		26A343B4262444ED000138B5 /* module */ = {
 			isa = PBXGroup;
 			children = (
+				26ECB4032624861E003B74A3 /* RxRelay.framework */,
 				26A3440A26245000000138B5 /* NSObject_Rx.framework */,
 				26A3440026244D3A000138B5 /* RxCocoa.framework */,
 				26A343B82624450D000138B5 /* SnapKit.framework */,
@@ -217,6 +244,7 @@
 				26A3438B26244400000138B5 /* Sources */,
 				26A3438C26244400000138B5 /* Frameworks */,
 				26A3438D26244400000138B5 /* Resources */,
+				26ECB3FC262485BC003B74A3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -458,7 +486,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dng.common.collectionLayout;
+				PRODUCT_BUNDLE_IDENTIFIER = com.podc.pet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -482,7 +510,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dng.common.collectionLayout;
+				PRODUCT_BUNDLE_IDENTIFIER = com.podc.pet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

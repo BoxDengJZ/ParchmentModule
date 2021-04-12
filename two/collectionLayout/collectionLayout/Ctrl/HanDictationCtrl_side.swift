@@ -20,7 +20,7 @@ extension HanDictationController: SideHeaderDelegate{
 
 
 
-extension HanDictationController{
+extension HanDictationController: LanItemTopProxy{
     
     
     func choose(idx index: Int){

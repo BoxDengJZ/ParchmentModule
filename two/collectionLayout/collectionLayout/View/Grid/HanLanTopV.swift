@@ -12,7 +12,6 @@ import RxCocoa
 
 
 protocol LanItemTopProxy: class {
-    func comeBottomBooks()
     func choose(idx index: Int)
 }
 
@@ -143,15 +142,7 @@ class HanLanTopV: UICollectionReusableView {
         animate(idx: sIdx)
     }
     
-    
 
-    @IBAction
-    func chooseBook(_ sender: UIButton){
-        
-        delegate?.comeBottomBooks()
-        
-    }
-    
     
     
     private
